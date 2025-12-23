@@ -12,4 +12,3 @@ B.Tech in Information Technology student with hands-on experience in web develop
 ![](https://nirzak-streak-stats.vercel.app/?user=prajwal-mhase&theme=merko&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=prajwal-mhase&theme=merko&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
