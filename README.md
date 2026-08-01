@@ -1,7 +1,7 @@
 <!-- BLOCK: HERO START -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243e&height=260&section=header&text=Prajwal%20Mhase&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Software%20Developer%20·%20AI%2FML%20Engineer%20·%20Full-Stack%20Builder&descAlignY=54&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243e&height=260&section=header&text=Prajwal%20Mhase&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Software%20Developer%20·%20AI%2FML%20Enthusiast%20·%20Full-Stack%20Builder&descAlignY=54&descSize=18" />
 
 
 
