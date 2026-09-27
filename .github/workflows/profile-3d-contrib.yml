@@ -1,0 +1,30 @@
+name: GitHub-Profile-3D-Contrib
+
+# Generates the isometric "3D contribution calendar" SVGs referenced in README.md
+# under profile-3d-contrib/*.svg. Drop this file into:
+#   .github/workflows/profile-3d-contrib.yml
+# in your prajwal-mhase/prajwal-mhase repo, commit it, then either wait for the
+# daily schedule below or trigger it manually from the Actions tab.
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # once a day (18:00 UTC / 23:30 IST)
+  workflow_dispatch:        # lets you run it on demand from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          git commit -m "chore: update 3D contribution calendar" || echo "nothing to commit"
+          git push
